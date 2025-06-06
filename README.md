@@ -5,14 +5,14 @@
 
 //使用方法：
 
-#include "IniParser.hpp"
+#include "IniParser.hpp" 
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) 
 { 
-    IniParser m_iniParams;
-    m_iniParams.InitializeFromFile("/config/system_config.ini");
-    std::softName = m_iniParams.GetString("about", "name");
+    IniParser m_iniParams; 
+    m_iniParams.InitializeFromFile("/config/system_config.ini"); 
+    std::softName = m_iniParams.GetString("about", "name"); 
     
-    return 0;
-}
+    return 0; 
+} 
 
