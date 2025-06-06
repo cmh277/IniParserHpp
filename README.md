@@ -4,6 +4,7 @@
 // 基于 BSD-3-Clause 许可证
 
 //使用方法
+
 #include "IniParser.hpp"
 
 IniParser m_iniParams;
